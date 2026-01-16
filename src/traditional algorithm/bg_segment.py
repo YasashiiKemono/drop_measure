@@ -6,7 +6,7 @@ import math
 # ============================
 # 参数区（你可以按需要调整）
 # ============================
-VIDEO_PATH = "video1.wmv"  # 输入视频路径
+VIDEO_PATH = "video1.mp4"  # 输入视频路径
 N_BG_FRAMES = 50          # 用多少帧来估计背景
 FRAME_STEP = 5            # 每隔多少帧取一帧做背景
 DIFF_THRESH = 20          # 背景差分阈值（越小越敏感）

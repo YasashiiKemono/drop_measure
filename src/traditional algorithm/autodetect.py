@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 
 # Step 1: 读取图像并转换为灰度图
-img = cv2.imread("data/Image1.jpg")
+img = cv2.imread("data/dataset/images/Image23.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Step 2: 计算灰度直方图
